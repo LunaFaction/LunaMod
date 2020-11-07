@@ -1,0 +1,26 @@
+{
+  "group": "lunafaction",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "lunafaction:titanegem"
+    },
+    "2": {
+      "item": "lunafaction:titanegem"
+    },
+    "3": {
+      "item": "lunafaction:titanegem"
+    },
+    "5": {
+      "item": "lunafaction:titanegem"
+    }
+  },
+  "result": {
+    "item": "lunafaction:titanearmorboots",
+    "count": 1
+  }
+}

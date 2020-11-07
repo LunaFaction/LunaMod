@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "lunafaction:blocks/lunanium_block",
+    "particle": "lunafaction:blocks/lunanium_block"
+  }
+}

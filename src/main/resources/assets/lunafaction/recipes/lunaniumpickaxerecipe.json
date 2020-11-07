@@ -1,0 +1,30 @@
+{
+  "group": "lunafaction",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "lunafaction:lunaniumgem"
+    },
+    "1": {
+      "item": "lunafaction:lunaniumgem"
+    },
+    "2": {
+      "item": "lunafaction:lunaniumgem"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "lunafaction:lunaniumpickaxe",
+    "count": 1
+  }
+}

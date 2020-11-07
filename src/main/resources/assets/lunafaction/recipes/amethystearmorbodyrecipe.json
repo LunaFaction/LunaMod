@@ -1,0 +1,39 @@
+{
+  "group": "lunafaction",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "lunafaction:amethystegem"
+    },
+    "2": {
+      "item": "lunafaction:amethystegem"
+    },
+    "3": {
+      "item": "lunafaction:amethystegem"
+    },
+    "4": {
+      "item": "lunafaction:amethystegem"
+    },
+    "5": {
+      "item": "lunafaction:amethystegem"
+    },
+    "6": {
+      "item": "lunafaction:amethystegem"
+    },
+    "7": {
+      "item": "lunafaction:amethystegem"
+    },
+    "8": {
+      "item": "lunafaction:amethystegem"
+    }
+  },
+  "result": {
+    "item": "lunafaction:amethystearmorbody",
+    "count": 1
+  }
+}

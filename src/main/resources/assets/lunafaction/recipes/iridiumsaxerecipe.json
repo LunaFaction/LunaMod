@@ -1,0 +1,30 @@
+{
+  "group": "lunafaction",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    "4 "
+  ],
+  "key": {
+    "0": {
+      "item": "lunafaction:iridiumsgem"
+    },
+    "1": {
+      "item": "lunafaction:iridiumsgem"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    },
+    "3": {
+      "item": "lunafaction:iridiumsgem"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "lunafaction:iridiumsaxe",
+    "count": 1
+  }
+}

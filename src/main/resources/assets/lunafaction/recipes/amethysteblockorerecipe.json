@@ -1,0 +1,13 @@
+{
+  "group": "lunafaction",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "lunafaction:amethysteoreblock"
+    }
+  ],
+  "result": {
+    "item": "lunafaction:amethystegem",
+    "count": 9
+  }
+}

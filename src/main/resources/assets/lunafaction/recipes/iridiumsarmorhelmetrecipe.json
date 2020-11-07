@@ -1,0 +1,29 @@
+{
+  "group": "lunafaction",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "lunafaction:iridiumsgem"
+    },
+    "1": {
+      "item": "lunafaction:iridiumsgem"
+    },
+    "2": {
+      "item": "lunafaction:iridiumsgem"
+    },
+    "3": {
+      "item": "lunafaction:iridiumsgem"
+    },
+    "5": {
+      "item": "lunafaction:iridiumsgem"
+    }
+  },
+  "result": {
+    "item": "lunafaction:iridiumsarmorhelmet",
+    "count": 1
+  }
+}

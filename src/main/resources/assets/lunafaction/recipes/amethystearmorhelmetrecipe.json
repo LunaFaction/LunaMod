@@ -1,0 +1,29 @@
+{
+  "group": "lunafaction",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "lunafaction:amethystegem"
+    },
+    "1": {
+      "item": "lunafaction:amethystegem"
+    },
+    "2": {
+      "item": "lunafaction:amethystegem"
+    },
+    "3": {
+      "item": "lunafaction:amethystegem"
+    },
+    "5": {
+      "item": "lunafaction:amethystegem"
+    }
+  },
+  "result": {
+    "item": "lunafaction:amethystearmorhelmet",
+    "count": 1
+  }
+}

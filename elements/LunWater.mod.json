@@ -1,0 +1,22 @@
+{
+  "_fv": 6,
+  "_type": "fluid",
+  "definition": {
+    "name": "LunWater",
+    "textureStill": "unwater_move",
+    "textureFlowing": "unwater_leep",
+    "luminosity": 1,
+    "density": 500,
+    "viscosity": 800,
+    "isGas": false,
+    "type": "WATER",
+    "generateBucket": false,
+    "creativeTab": {
+      "value": "CUSTOM:LunaFaction"
+    },
+    "spawnWorldTypes": [],
+    "onEntityCollides": {
+      "name": "LunWaterMobplayerCollidesBlock"
+    }
+  }
+}

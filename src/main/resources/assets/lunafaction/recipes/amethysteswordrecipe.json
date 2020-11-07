@@ -1,0 +1,24 @@
+{
+  "group": "lunafaction",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "lunafaction:amethystegem"
+    },
+    "1": {
+      "item": "lunafaction:amethystegem"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "lunafaction:amethystesword",
+    "count": 1
+  }
+}

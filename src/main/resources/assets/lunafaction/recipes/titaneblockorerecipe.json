@@ -1,0 +1,13 @@
+{
+  "group": "lunafaction",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "lunafaction:titaneoreblock"
+    }
+  ],
+  "result": {
+    "item": "lunafaction:titanegem",
+    "count": 9
+  }
+}

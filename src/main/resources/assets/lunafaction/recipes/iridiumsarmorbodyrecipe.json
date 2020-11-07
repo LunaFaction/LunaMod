@@ -1,0 +1,39 @@
+{
+  "group": "lunafaction",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "lunafaction:iridiumsgem"
+    },
+    "2": {
+      "item": "lunafaction:iridiumsgem"
+    },
+    "3": {
+      "item": "lunafaction:iridiumsgem"
+    },
+    "4": {
+      "item": "lunafaction:iridiumsgem"
+    },
+    "5": {
+      "item": "lunafaction:iridiumsgem"
+    },
+    "6": {
+      "item": "lunafaction:iridiumsgem"
+    },
+    "7": {
+      "item": "lunafaction:iridiumsgem"
+    },
+    "8": {
+      "item": "lunafaction:iridiumsgem"
+    }
+  },
+  "result": {
+    "item": "lunafaction:iridiumsarmorbody",
+    "count": 1
+  }
+}

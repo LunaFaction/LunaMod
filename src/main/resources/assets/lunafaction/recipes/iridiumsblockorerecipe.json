@@ -1,0 +1,13 @@
+{
+  "group": "lunafaction",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "lunafaction:iridiumsoreblock"
+    }
+  ],
+  "result": {
+    "item": "lunafaction:iridiumsgem",
+    "count": 9
+  }
+}

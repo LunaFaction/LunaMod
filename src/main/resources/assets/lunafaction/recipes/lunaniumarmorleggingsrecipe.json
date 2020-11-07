@@ -1,0 +1,36 @@
+{
+  "group": "lunafaction",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "lunafaction:lunaniumgem"
+    },
+    "1": {
+      "item": "lunafaction:lunaniumgem"
+    },
+    "2": {
+      "item": "lunafaction:lunaniumgem"
+    },
+    "3": {
+      "item": "lunafaction:lunaniumgem"
+    },
+    "5": {
+      "item": "lunafaction:lunaniumgem"
+    },
+    "6": {
+      "item": "lunafaction:lunaniumgem"
+    },
+    "8": {
+      "item": "lunafaction:lunaniumgem"
+    }
+  },
+  "result": {
+    "item": "lunafaction:lunaniumarmorlegs",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "group": "lunafaction",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "lunafaction:lunaniumoreblock"
+    }
+  ],
+  "result": {
+    "item": "lunafaction:lunaniumgem",
+    "count": 9
+  }
+}
