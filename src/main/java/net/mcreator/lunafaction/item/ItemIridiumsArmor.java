@@ -37,7 +37,7 @@ public class ItemIridiumsArmor extends ElementsLunafaction.ModElement {
 
 	@Override
 	public void initElements() {
-		ItemArmor.ArmorMaterial enuma = EnumHelper.addArmorMaterial("IRIDIUMSARMOR", "lunafaction:iridiums", 15, new int[]{3, 8, 8, 3}, 9,
+		ItemArmor.ArmorMaterial enuma = EnumHelper.addArmorMaterial("IRIDIUMSARMOR", "lunafaction:iridiums", 9, new int[]{3, 8, 8, 3}, 9,
 				(net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY.getObject(new ResourceLocation("")), 0f);
 		elements.items.add(() -> new ItemArmor(enuma, 0, EntityEquipmentSlot.HEAD) {
 			@Override
