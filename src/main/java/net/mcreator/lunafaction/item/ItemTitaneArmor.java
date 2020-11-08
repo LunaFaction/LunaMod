@@ -33,7 +33,7 @@ public class ItemTitaneArmor extends ElementsLunafaction.ModElement {
 
 	@Override
 	public void initElements() {
-		ItemArmor.ArmorMaterial enuma = EnumHelper.addArmorMaterial("TITANEARMOR", "lunafaction:titane", 7, new int[]{2, 6, 6, 2}, 9,
+		ItemArmor.ArmorMaterial enuma = EnumHelper.addArmorMaterial("TITANEARMOR", "lunafaction:titane", 3, new int[]{2, 6, 6, 2}, 9,
 				(net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY.getObject(new ResourceLocation("")), 0f);
 		elements.items.add(() -> new ItemArmor(enuma, 0, EntityEquipmentSlot.HEAD).setUnlocalizedName("titanearmorhelmet")
 				.setRegistryName("titanearmorhelmet").setCreativeTab(TabLunaFaction.tab));
