@@ -1,0 +1,17 @@
+{
+  "_fv": 6,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "music1luna",
+    "name": "Music1 Luna",
+    "description": "Musique1",
+    "creativeTab": {
+      "value": "CUSTOM:LunaFaction"
+    },
+    "music": {
+      "value": "CUSTOM:music1luna"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}
