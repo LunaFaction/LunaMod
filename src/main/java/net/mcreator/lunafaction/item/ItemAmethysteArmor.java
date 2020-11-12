@@ -33,7 +33,7 @@ public class ItemAmethysteArmor extends ElementsLunafaction.ModElement {
 
 	@Override
 	public void initElements() {
-		ItemArmor.ArmorMaterial enuma = EnumHelper.addArmorMaterial("AMETHYSTEARMOR", "lunafaction:amethyste", 6, new int[]{2, 7, 7, 2}, 9,
+		ItemArmor.ArmorMaterial enuma = EnumHelper.addArmorMaterial("AMETHYSTEARMOR", "lunafaction:amethyste", 2, new int[]{2, 7, 7, 2}, 9,
 				(net.minecraft.util.SoundEvent) net.minecraft.util.SoundEvent.REGISTRY.getObject(new ResourceLocation("")), 0f);
 		elements.items.add(() -> new ItemArmor(enuma, 0, EntityEquipmentSlot.HEAD).setUnlocalizedName("amethystearmorhelmet")
 				.setRegistryName("amethystearmorhelmet").setCreativeTab(TabLunaFaction.tab));
