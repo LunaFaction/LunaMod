@@ -58,11 +58,11 @@ public class BlockAmethysteOre extends ElementsLunafaction.ModElement {
 			dimensionCriteria = true;
 		if (!dimensionCriteria)
 			return;
-		for (int i = 0; i < 2; i++) {
+		for (int i = 0; i < 4; i++) {
 			int x = chunkX + random.nextInt(16);
 			int y = random.nextInt(5) + 15;
 			int z = chunkZ + random.nextInt(16);
-			(new WorldGenMinable(block.getDefaultState(), 4, new com.google.common.base.Predicate<IBlockState>() {
+			(new WorldGenMinable(block.getDefaultState(), 5, new com.google.common.base.Predicate<IBlockState>() {
 				public boolean apply(IBlockState blockAt) {
 					boolean blockCriteria = false;
 					IBlockState require;
