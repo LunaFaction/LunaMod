@@ -64,6 +64,7 @@ public class BlockLunWater extends ElementsLunafaction.ModElement {
 	@Override
 	public void preInit(FMLPreInitializationEvent event) {
 		FluidRegistry.registerFluid(fluid);
+		FluidRegistry.addBucketForFluid(fluid);
 	}
 
 	@Override

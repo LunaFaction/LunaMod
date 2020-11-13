@@ -1,1 +1,29 @@
-{}
+{
+  "music1luna": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "lunafaction:1",
+        "stream": false
+      }
+    ]
+  },
+  "music2luna": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "lunafaction:2",
+        "stream": false
+      }
+    ]
+  },
+  "music3luna": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "lunafaction:3",
+        "stream": false
+      }
+    ]
+  }
+}

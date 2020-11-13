@@ -62,7 +62,7 @@ public class BlockLunaniumOre extends ElementsLunafaction.ModElement {
 			int x = chunkX + random.nextInt(16);
 			int y = random.nextInt(5) + 8;
 			int z = chunkZ + random.nextInt(16);
-			(new WorldGenMinable(block.getDefaultState(), 2, new com.google.common.base.Predicate<IBlockState>() {
+			(new WorldGenMinable(block.getDefaultState(), 3, new com.google.common.base.Predicate<IBlockState>() {
 				public boolean apply(IBlockState blockAt) {
 					boolean blockCriteria = false;
 					IBlockState require;

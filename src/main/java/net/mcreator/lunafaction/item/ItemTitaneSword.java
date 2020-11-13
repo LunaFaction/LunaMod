@@ -34,7 +34,7 @@ public class ItemTitaneSword extends ElementsLunafaction.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("TITANESWORD", 2, 250, 6f, 5f, 14)) {
+		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("TITANESWORD", 2, 250, 6f, 15f, 14)) {
 			@Override
 			public Multimap<String, AttributeModifier> getItemAttributeModifiers(EntityEquipmentSlot slot) {
 				Multimap<String, AttributeModifier> multimap = super.getItemAttributeModifiers(slot);
