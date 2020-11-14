@@ -29,7 +29,7 @@ public class ItemLunaniumShovel extends ElementsLunafaction.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemSpade(EnumHelper.addToolMaterial("LUNANIUMSHOVEL", 2, 250, 10f, -2f, 14)) {
+		elements.items.add(() -> new ItemSpade(EnumHelper.addToolMaterial("LUNANIUMSHOVEL", 2, 1500, 10f, -2f, 14)) {
 			{
 				this.attackSpeed = -3f;
 			}

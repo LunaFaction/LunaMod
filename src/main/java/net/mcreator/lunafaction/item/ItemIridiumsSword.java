@@ -34,7 +34,7 @@ public class ItemIridiumsSword extends ElementsLunafaction.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("IRIDIUMSSWORD", 2, 250, 6f, 18f, 14)) {
+		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("IRIDIUMSSWORD", 2, 1000, 6f, 18f, 14)) {
 			@Override
 			public Multimap<String, AttributeModifier> getItemAttributeModifiers(EntityEquipmentSlot slot) {
 				Multimap<String, AttributeModifier> multimap = super.getItemAttributeModifiers(slot);

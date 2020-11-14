@@ -15,7 +15,7 @@
     "attackSpeed": 1.0,
     "enchantability": 14,
     "damageVsEntity": 25.0,
-    "usageCount": 250,
+    "usageCount": 1500,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": []

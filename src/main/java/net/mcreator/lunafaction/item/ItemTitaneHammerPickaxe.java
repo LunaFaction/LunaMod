@@ -34,7 +34,7 @@ public class ItemTitaneHammerPickaxe extends ElementsLunafaction.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemPickaxe(EnumHelper.addToolMaterial("TITANEHAMMERPICKAXE", 2, 250, 5f, -2f, 14)) {
+		elements.items.add(() -> new ItemPickaxe(EnumHelper.addToolMaterial("TITANEHAMMERPICKAXE", 2, 500, 5f, -2f, 14)) {
 			{
 				this.attackSpeed = -3f;
 			}

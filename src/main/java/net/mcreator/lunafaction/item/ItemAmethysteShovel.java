@@ -29,7 +29,7 @@ public class ItemAmethysteShovel extends ElementsLunafaction.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemSpade(EnumHelper.addToolMaterial("AMETHYSTESHOVEL", 2, 250, 8f, -2f, 14)) {
+		elements.items.add(() -> new ItemSpade(EnumHelper.addToolMaterial("AMETHYSTESHOVEL", 2, 700, 8f, -2f, 14)) {
 			{
 				this.attackSpeed = -3f;
 			}
