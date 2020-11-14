@@ -29,7 +29,7 @@ public class ItemIridiumsPickaxe extends ElementsLunafaction.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemPickaxe(EnumHelper.addToolMaterial("IRIDIUMSPICKAXE", 2, 250, 12.5f, -2f, 14)) {
+		elements.items.add(() -> new ItemPickaxe(EnumHelper.addToolMaterial("IRIDIUMSPICKAXE", 2, 1000, 12.5f, -2f, 14)) {
 			{
 				this.attackSpeed = -3f;
 			}

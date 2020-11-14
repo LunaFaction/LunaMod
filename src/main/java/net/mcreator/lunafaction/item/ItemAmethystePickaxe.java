@@ -29,7 +29,7 @@ public class ItemAmethystePickaxe extends ElementsLunafaction.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemPickaxe(EnumHelper.addToolMaterial("AMETHYSTEPICKAXE", 2, 250, 8.5f, -2f, 14)) {
+		elements.items.add(() -> new ItemPickaxe(EnumHelper.addToolMaterial("AMETHYSTEPICKAXE", 2, 700, 8.5f, -2f, 14)) {
 			{
 				this.attackSpeed = -3f;
 			}

@@ -29,7 +29,7 @@ public class ItemLunaniumPickaxe extends ElementsLunafaction.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemPickaxe(EnumHelper.addToolMaterial("LUNANIUMPICKAXE", 2, 250, 15f, -2f, 14)) {
+		elements.items.add(() -> new ItemPickaxe(EnumHelper.addToolMaterial("LUNANIUMPICKAXE", 2, 1500, 15f, -2f, 14)) {
 			{
 				this.attackSpeed = -3f;
 			}
