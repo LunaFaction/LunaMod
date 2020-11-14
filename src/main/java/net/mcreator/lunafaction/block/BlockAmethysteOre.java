@@ -60,7 +60,7 @@ public class BlockAmethysteOre extends ElementsLunafaction.ModElement {
 			return;
 		for (int i = 0; i < 4; i++) {
 			int x = chunkX + random.nextInt(16);
-			int y = random.nextInt(5) + 15;
+			int y = random.nextInt(15) + 5;
 			int z = chunkZ + random.nextInt(16);
 			(new WorldGenMinable(block.getDefaultState(), 5, new com.google.common.base.Predicate<IBlockState>() {
 				public boolean apply(IBlockState blockAt) {
