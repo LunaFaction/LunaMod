@@ -54,12 +54,14 @@ public class ElementsLunafaction implements IFuelHandler, IWorldGenerator {
 	public final List<Supplier<Potion>> potions = new ArrayList<>();
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public ElementsLunafaction() {
-		sounds.put(new ResourceLocation("lunafaction", "music1luna"),
-				new net.minecraft.util.SoundEvent(new ResourceLocation("lunafaction", "music1luna")));
 		sounds.put(new ResourceLocation("lunafaction", "music2luna"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("lunafaction", "music2luna")));
+		sounds.put(new ResourceLocation("lunafaction", "music1luna"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("lunafaction", "music1luna")));
 		sounds.put(new ResourceLocation("lunafaction", "music3luna"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("lunafaction", "music3luna")));
+		sounds.put(new ResourceLocation("lunafaction", "musiquenoel"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("lunafaction", "musiquenoel")));
 	}
 
 	public void preInit(FMLPreInitializationEvent event) {
