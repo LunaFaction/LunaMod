@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "lunafaction:blocks/baseblock",
+    "up": "lunafaction:blocks/baseblock",
+    "north": "lunafaction:blocks/baseblock",
+    "east": "lunafaction:blocks/baseblock",
+    "south": "lunafaction:blocks/baseblock",
+    "west": "lunafaction:blocks/baseblock",
+    "particle": "lunafaction:blocks/baseblock"
+  }
+}
