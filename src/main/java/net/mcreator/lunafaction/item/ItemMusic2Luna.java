@@ -10,9 +10,9 @@ import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.item.ItemRecord;
 import net.minecraft.item.Item;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
-import net.mcreator.lunafaction.creativetab.TabLunaFaction;
 import net.mcreator.lunafaction.ElementsLunafaction;
 
 @ElementsLunafaction.ModElement.Tag
@@ -38,7 +38,7 @@ public class ItemMusic2Luna extends ElementsLunafaction.ModElement {
 			super("music2luna", ElementsLunafaction.sounds.get(new ResourceLocation("lunafaction:music2luna")));
 			setUnlocalizedName("music2luna");
 			setRegistryName("music2luna");
-			setCreativeTab(TabLunaFaction.tab);
+			setCreativeTab(CreativeTabs.MISC);
 		}
 	}
 }

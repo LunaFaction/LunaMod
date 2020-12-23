@@ -6,7 +6,7 @@
     "name": "Music2 Luna",
     "description": "Musique2",
     "creativeTab": {
-      "value": "CUSTOM:LunaFaction"
+      "value": "MISC"
     },
     "music": {
       "value": "CUSTOM:music2luna"
